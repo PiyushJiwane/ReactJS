@@ -1,7 +1,23 @@
 import './App.css';
 import Greet from './Components/Greet';
+import Welcome from './Components/Welcome'
 
 function App() {
+  // class component in ReactJS
+  // ===============================
+  return (
+    <div className="App">
+      <Welcome/>
+    </div>
+  );
+
+  // functional components in ReactJs
+  // ===================================
+  // return (
+  //   <div className="App">
+  //     <Greet></Greet>
+  //   </div>
+  // );
 
   // first hello-world program in ReactJS
   // =========================================
@@ -23,14 +39,6 @@ function App() {
   //     </header>
   //   </div>
   // );
-
-  // functional components in ReactJs
-  // ===================================
-  return (
-      <div className="App">
-        <Greet></Greet>
-      </div>
-    );
 }
 
 export default App;
