@@ -8,8 +8,14 @@ function App() {
   // ====================
   return (
       <div className="App">
-        <PropsExample name="Piyush Jiwane"/>
-        <PropsExample name="Gaurav Jiwane"/>
+        <PropsExample name="Piyush Jiwane" subname="mauli">
+          <p>Thanks for communicating</p>
+        </PropsExample>
+        <PropsExample name="Gaurav Jiwane" subname="panu">
+          <button>Click Here</button>
+        </PropsExample>
+
+        <Welcome name="piyush anil jiwane aks Mauli"/>
       </div>
     );
 
