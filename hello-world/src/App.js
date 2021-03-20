@@ -1,15 +1,25 @@
 import './App.css';
 import Greet from './Components/Greet';
-import Welcome from './Components/Welcome'
+import Welcome from './Components/Welcome';
+import PropsExample from './Components/PropsEx';
 
 function App() {
+  // props in ReactJS
+  // ====================
+  return (
+      <div className="App">
+        <PropsExample name="Piyush Jiwane"/>
+        <PropsExample name="Gaurav Jiwane"/>
+      </div>
+    );
+
   // class component in ReactJS
   // ===============================
-  return (
-    <div className="App">
-      <Welcome/>
-    </div>
-  );
+  // return (
+  //   <div className="App">
+  //     <Welcome/>
+  //   </div>
+  // );
 
   // functional components in ReactJs
   // ===================================
