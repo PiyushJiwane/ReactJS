@@ -1,23 +1,32 @@
-import './App.css';
-import Greet from './Components/Greet';
-import Welcome from './Components/Welcome';
-import PropsExample from './Components/PropsEx';
+import "./App.css";
+import Greet from "./Components/Greet";
+import Welcome from "./Components/Welcome";
+import PropsExample from "./Components/PropsEx";
+import StateComponent from "./Components/StateComponent";
 
 function App() {
+  // State Components in ReactJS
+  // =============================
+  return (
+    <div className="App">
+      <StateComponent/>
+    </div>
+  );
+
   // props in ReactJS
   // ====================
-  return (
-      <div className="App">
-        <PropsExample name="Piyush Jiwane" subname="mauli">
-          <p>Thanks for communicating</p>
-        </PropsExample>
-        <PropsExample name="Gaurav Jiwane" subname="panu">
-          <button>Click Here</button>
-        </PropsExample>
+  // return (
+  //     <div className="App">
+  //       <PropsExample name="Piyush Jiwane" subname="mauli">
+  //         <p>Thanks for communicating</p>
+  //       </PropsExample>
+  //       <PropsExample name="Gaurav Jiwane" subname="panu">
+  //         <button>Click Here</button>
+  //       </PropsExample>
 
-        <Welcome name="piyush anil jiwane aks Mauli"/>
-      </div>
-    );
+  //       <Welcome name="piyush anil jiwane aks Mauli"/>
+  //     </div>
+  //   );
 
   // class component in ReactJS
   // ===============================
