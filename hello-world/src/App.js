@@ -3,15 +3,33 @@ import Greet from "./Components/Greet";
 import Welcome from "./Components/Welcome";
 import PropsExample from "./Components/PropsEx";
 import StateComponent from "./Components/StateComponent";
+import Counter from "./Components/Counter";
+import ParentComponent from './Components/ParentComponent';
 
 function App() {
-  // State Components in ReactJS
-  // =============================
+  //methods as a props in ReactJS
   return (
     <div className="App">
-      <StateComponent/>
+      <ParentComponent/>
     </div>
   );
+
+  // setState() in ReactJS (more about setState() method)
+  // =====================================================
+  // return (
+  //   <div className="App">
+  //     <Counter/>
+  //   </div>
+  // );
+
+
+  // State Components in ReactJS
+  // =============================
+  // return (
+  //   <div className="App">
+  //     <StateComponent/>
+  //   </div>
+  // );
 
   // props in ReactJS
   // ====================
