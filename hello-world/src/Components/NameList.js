@@ -22,18 +22,21 @@ import CarDetails from './CarDetails';
 function NameList() {
     const arrayObj=[
         {
+            "id":1,
             "color": "purple",
             "type": "minivan",
             "registration": new Date('2012-02-03'),
             "capacity": 17
           },
           {
+            "id":2,
             "color": "red",
             "type": "nano",
             "registration": new Date('2012-02-04'),
             "capacity": 19
           },
           {
+            "id":3,
             "color": "green",
             "type": "ms",
             "registration": new Date('2012-02-05'),
@@ -42,7 +45,7 @@ function NameList() {
     ];
 
     var ob=arrayObj.map(name=>(
-        <CarDetails name={name}/>
+        <CarDetails key={name.id} name={name}/>
     ))
 
     return(
