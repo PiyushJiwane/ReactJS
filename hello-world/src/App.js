@@ -6,15 +6,22 @@ import StateComponent from "./Components/StateComponent";
 import Counter from "./Components/Counter";
 import ParentComponent from './Components/ParentComponent';
 import RenderingEx from './Components/RenderingEx';
+import NameList from './Components/NameList';
 
 function App() {
-  //conditional rendering
-  return (
+  //List rendering in ReactJS
+  return(
     <div className="App">
-      <RenderingEx/>
+      <NameList/>
     </div>
-  );
+  )
 
+  //conditional rendering
+  // return (
+  //   <div className="App">
+  //     <RenderingEx/>
+  //   </div>
+  // );
 
 
   //methods as a props in ReactJS
