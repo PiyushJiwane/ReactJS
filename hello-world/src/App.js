@@ -5,14 +5,24 @@ import PropsExample from "./Components/PropsEx";
 import StateComponent from "./Components/StateComponent";
 import Counter from "./Components/Counter";
 import ParentComponent from './Components/ParentComponent';
+import RenderingEx from './Components/RenderingEx';
 
 function App() {
-  //methods as a props in ReactJS
+  //conditional rendering
   return (
     <div className="App">
-      <ParentComponent/>
+      <RenderingEx/>
     </div>
   );
+
+
+
+  //methods as a props in ReactJS
+  // return (
+  //   <div className="App">
+  //     <ParentComponent/>
+  //   </div>
+  // );
 
   // setState() in ReactJS (more about setState() method)
   // =====================================================
