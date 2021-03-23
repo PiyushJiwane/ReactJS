@@ -7,13 +7,19 @@ import Counter from "./Components/Counter";
 import ParentComponent from './Components/ParentComponent';
 import RenderingEx from './Components/RenderingEx';
 import NameList from './Components/NameList';
-import Demo from './Components/Demo'
+import Demo from './Components/Demo';
+import Inline from './Components/Inline';
+import './appStyle.css';
+import styles from './appStyle.module.css';
 
 function App() {
     //Styling and CSS Basic in React
   return(
     <div className="App">
-      <Demo primary={true}/>
+      {/* <Demo primary={true}/> */}
+      <Inline/>
+      <h1 className='error'>Error msg</h1>
+      <h1 className={styles.success}>Success msg</h1>
     </div>
   )
 
