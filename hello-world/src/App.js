@@ -7,14 +7,29 @@ import Counter from "./Components/Counter";
 import ParentComponent from './Components/ParentComponent';
 import RenderingEx from './Components/RenderingEx';
 import NameList from './Components/NameList';
+import Demo from './Components/Demo'
 
 function App() {
-  //List rendering in ReactJS
+    //Styling and CSS Basic in React
   return(
     <div className="App">
-      <NameList/>
+      <Demo primary={true}/>
     </div>
   )
+
+  //Styling and CSS Basic in React
+  // return(
+  //   <div className="App">
+  //     <StyleSheet />
+  //   </div>
+  // )
+
+  //List rendering in ReactJS
+  // return(
+  //   <div className="App">
+  //     <NameList/>
+  //   </div>
+  // )
 
   //conditional rendering
   // return (
