@@ -15,14 +15,23 @@ import Form from './Components/Form';
 import LifeCycleA from './Components/LifeCycleA';
 import FragmentDemo from "./Components/FragmentDemo";
 import SuperComponent from "./Components/SuperComponent";
+import SuperMemoComponent from "./Components/SuperMemoComponent";
 
 function App() {
-  //Pure Component in ReactJS
+  // Memo Component in ReactJS
   return(
     <div className="App">
-      <SuperComponent/>
+      <SuperMemoComponent/>
     </div>
   )
+
+
+  //Pure Component in ReactJS
+  // return(
+  //   <div className="App">
+  //     <SuperComponent/>
+  //   </div>
+  // )
 
   //Fragments in ReactJS
   // return(
