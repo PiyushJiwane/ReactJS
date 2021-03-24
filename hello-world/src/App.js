@@ -14,14 +14,22 @@ import styles from './appStyle.module.css';
 import Form from './Components/Form';
 import LifeCycleA from './Components/LifeCycleA';
 import FragmentDemo from "./Components/FragmentDemo";
+import SuperComponent from "./Components/SuperComponent";
 
 function App() {
-  //Fragments in ReactJS
+  //Pure Component in ReactJS
   return(
     <div className="App">
-      <FragmentDemo/>
+      <SuperComponent/>
     </div>
   )
+
+  //Fragments in ReactJS
+  // return(
+  //   <div className="App">
+  //     <FragmentDemo/>
+  //   </div>
+  // )
 
 
   // Basic of Form Handling in ReactJS
