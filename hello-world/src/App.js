@@ -12,14 +12,25 @@ import Inline from './Components/Inline';
 import './appStyle.css';
 import styles from './appStyle.module.css';
 import Form from './Components/Form';
+import LifeCycleA from './Components/LifeCycleA';
+import FragmentDemo from "./Components/FragmentDemo";
 
 function App() {
-  // Basic of Form Handling in ReactJS
+  //Fragments in ReactJS
   return(
-      <div className="App">
-        <Form/>
-      </div>
-    )
+    <div className="App">
+      <FragmentDemo/>
+    </div>
+  )
+
+
+  // Basic of Form Handling in ReactJS
+  // return(
+  //     <div className="App">
+  //       {/* <Form/> */}
+  //       <LifeCycleA/>
+  //     </div>
+  //   )
 
     //Styling and CSS Basic in React
   // return(
