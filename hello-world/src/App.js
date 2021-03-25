@@ -21,19 +21,30 @@ import FRParentInput from "./Components/FRParentInput";
 import PortalDemo from "./Components/PortalDemo";
 import ErrorBoundary from "./Components/ErrorBoundary";
 import Hero from "./Components/Hero";
+import ClickCounter from "./Components/ClickCounter";
+import HoverCounter from "./Components/HoverCounter";
 
 function App() {
-  // ErrorBoundary in ReactJS
+  // Higher order in ReactJS
   return (
     <div className="App">
-      <ErrorBoundary>
-        <Hero heroName="Piyush"/>
-      </ErrorBoundary>
-      <ErrorBoundary>
-        <Hero heroName="Joker"/>
-      </ErrorBoundary>
+      <ClickCounter/>
+      <HoverCounter/>
     </div>
   );
+
+
+  // ErrorBoundary in ReactJS
+  // return (
+  //   <div className="App">
+  //     <ErrorBoundary>
+  //       <Hero heroName="Piyush"/>
+  //     </ErrorBoundary>
+  //     <ErrorBoundary>
+  //       <Hero heroName="Joker"/>
+  //     </ErrorBoundary>
+  //   </div>
+  // );
 
 
   // Portals in ReactJS
