@@ -23,13 +23,23 @@ import ErrorBoundary from "./Components/ErrorBoundary";
 import Hero from "./Components/Hero";
 import ClickCounter from "./Components/ClickCounter";
 import HoverCounter from "./Components/HoverCounter";
+import User from "./Components/User";
+import { render } from "react-dom";
+import ButtonClick from "./Components/ButtonClick";
+import HeadingHover from "./Components/HeadingHover";
 
 function App() {
   // Higher order in ReactJS
   return (
     <div className="App">
-      <ClickCounter/>
-      <HoverCounter/>
+      {/* <ClickCounter/>
+      <HoverCounter/> */}
+      {/* <ButtonClick/>
+      <HeadingHover/>
+      <User render={(isLogedIn)=>isLogedIn?"Piyush Jiwane":"Please Loged In"}/> */}
+
+      <User render={(count,ClickHandler)=><ButtonClick count={count} ClickHandler={ClickHandler}/>}/>
+      <User render={(count,ClickHandler)=><HeadingHover count={count} ClickHandler={ClickHandler}/>}/>
     </div>
   );
 
