@@ -19,14 +19,29 @@ import SuperMemoComponent from "./Components/SuperMemoComponent";
 import RefsEx from "./Components/RefsEx";
 import FRParentInput from "./Components/FRParentInput";
 import PortalDemo from "./Components/PortalDemo";
+import ErrorBoundary from "./Components/ErrorBoundary";
+import Hero from "./Components/Hero";
 
 function App() {
-  // Portals in ReactJS
+  // ErrorBoundary in ReactJS
   return (
     <div className="App">
-      <PortalDemo/>
+      <ErrorBoundary>
+        <Hero heroName="Piyush"/>
+      </ErrorBoundary>
+      <ErrorBoundary>
+        <Hero heroName="Joker"/>
+      </ErrorBoundary>
     </div>
   );
+
+
+  // Portals in ReactJS
+  // return (
+  //   <div className="App">
+  //     <PortalDemo/>
+  //   </div>
+  // );
 
 
   //Refs in ReactJS
