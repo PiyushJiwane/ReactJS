@@ -16,14 +16,23 @@ import LifeCycleA from './Components/LifeCycleA';
 import FragmentDemo from "./Components/FragmentDemo";
 import SuperComponent from "./Components/SuperComponent";
 import SuperMemoComponent from "./Components/SuperMemoComponent";
+import RefsEx from "./Components/RefsEx";
 
 function App() {
-  // Memo Component in ReactJS
+  //Refs in ReactJS
   return(
-    <div className="App">
-      <SuperMemoComponent/>
-    </div>
-  )
+      <div className="App">
+        <RefsEx/>
+      </div>
+    )
+
+
+  // Memo Component in ReactJS
+  // return(
+  //   <div className="App">
+  //     <SuperMemoComponent/>
+  //   </div>
+  // )
 
 
   //Pure Component in ReactJS
