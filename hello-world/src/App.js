@@ -4,30 +4,38 @@ import Welcome from "./Components/Welcome";
 import PropsExample from "./Components/PropsEx";
 import StateComponent from "./Components/StateComponent";
 import Counter from "./Components/Counter";
-import ParentComponent from './Components/ParentComponent';
-import RenderingEx from './Components/RenderingEx';
-import NameList from './Components/NameList';
-import Demo from './Components/Demo';
-import Inline from './Components/Inline';
-import './appStyle.css';
-import styles from './appStyle.module.css';
-import Form from './Components/Form';
-import LifeCycleA from './Components/LifeCycleA';
+import ParentComponent from "./Components/ParentComponent";
+import RenderingEx from "./Components/RenderingEx";
+import NameList from "./Components/NameList";
+import Demo from "./Components/Demo";
+import Inline from "./Components/Inline";
+import "./appStyle.css";
+import styles from "./appStyle.module.css";
+import Form from "./Components/Form";
+import LifeCycleA from "./Components/LifeCycleA";
 import FragmentDemo from "./Components/FragmentDemo";
 import SuperComponent from "./Components/SuperComponent";
 import SuperMemoComponent from "./Components/SuperMemoComponent";
 import RefsEx from "./Components/RefsEx";
 import FRParentInput from "./Components/FRParentInput";
+import PortalDemo from "./Components/PortalDemo";
 
 function App() {
-  //Refs in ReactJS
-  return(
-      <div className="App">
-        {/* <RefsEx/> */}
-        <FRParentInput/>
-      </div>
-    )
+  // Portals in ReactJS
+  return (
+    <div className="App">
+      <PortalDemo/>
+    </div>
+  );
 
+
+  //Refs in ReactJS
+  // return (
+  //   <div className="App">
+  //     {/* <RefsEx/> */}
+  //     <FRParentInput />
+  //   </div>
+  // );
 
   // Memo Component in ReactJS
   // return(
@@ -35,7 +43,6 @@ function App() {
   //     <SuperMemoComponent/>
   //   </div>
   // )
-
 
   //Pure Component in ReactJS
   // return(
@@ -51,7 +58,6 @@ function App() {
   //   </div>
   // )
 
-
   // Basic of Form Handling in ReactJS
   // return(
   //     <div className="App">
@@ -60,7 +66,7 @@ function App() {
   //     </div>
   //   )
 
-    //Styling and CSS Basic in React
+  //Styling and CSS Basic in React
   // return(
   //   <div className="App">
   //     {/* <Demo primary={true}/> */}
@@ -91,7 +97,6 @@ function App() {
   //   </div>
   // );
 
-
   //methods as a props in ReactJS
   // return (
   //   <div className="App">
@@ -106,7 +111,6 @@ function App() {
   //     <Counter/>
   //   </div>
   // );
-
 
   // State Components in ReactJS
   // =============================
