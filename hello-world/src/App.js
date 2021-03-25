@@ -17,12 +17,14 @@ import FragmentDemo from "./Components/FragmentDemo";
 import SuperComponent from "./Components/SuperComponent";
 import SuperMemoComponent from "./Components/SuperMemoComponent";
 import RefsEx from "./Components/RefsEx";
+import FRParentInput from "./Components/FRParentInput";
 
 function App() {
   //Refs in ReactJS
   return(
       <div className="App">
-        <RefsEx/>
+        {/* <RefsEx/> */}
+        <FRParentInput/>
       </div>
     )
 
