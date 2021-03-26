@@ -30,12 +30,14 @@ import HeadingHover from "./Components/HeadingHover";
 import D from "./Components/D";
 import { UserProvider } from "./Components/ContextComponent";
 import HttpGet from "./Components/HttpGet";
+import HttpPost from "./Components/HttpPost";
 
 function App() {
 //  HTTP-GET
 return (
   <div className="App">
-    <HttpGet/>
+    {/* <HttpGet/> */}
+    <HttpPost/>
   </div>
 );
 
