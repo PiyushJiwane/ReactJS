@@ -27,22 +27,32 @@ import User from "./Components/User";
 import { render } from "react-dom";
 import ButtonClick from "./Components/ButtonClick";
 import HeadingHover from "./Components/HeadingHover";
+import D from "./Components/D";
+import { UserProvider } from "./Components/ContextComponent";
 
 function App() {
-  // Higher order in ReactJS
+  //COntext API
   return (
     <div className="App">
-      {/* <ClickCounter/>
-      <HoverCounter/> */}
-      {/* <ButtonClick/>
-      <HeadingHover/>
-      <User render={(isLogedIn)=>isLogedIn?"Piyush Jiwane":"Please Loged In"}/> */}
-
-      <User render={(count,ClickHandler)=><ButtonClick count={count} ClickHandler={ClickHandler}/>}/>
-      <User render={(count,ClickHandler)=><HeadingHover count={count} ClickHandler={ClickHandler}/>}/>
+      <UserProvider value="piyush jiwane">
+        <D/>
+      </UserProvider>
     </div>
   );
 
+  // Higher order in ReactJS
+  // return (
+  //   <div className="App">
+  //     {/* <ClickCounter/>
+  //     <HoverCounter/> */}
+  //     {/* <ButtonClick/>
+  //     <HeadingHover/>
+  //     <User render={(isLogedIn)=>isLogedIn?"Piyush Jiwane":"Please Loged In"}/> */}
+
+  //     <User render={(count,ClickHandler)=><ButtonClick count={count} ClickHandler={ClickHandler}/>}/>
+  //     <User render={(count,ClickHandler)=><HeadingHover count={count} ClickHandler={ClickHandler}/>}/>
+  //   </div>
+  // );
 
   // ErrorBoundary in ReactJS
   // return (
@@ -56,14 +66,12 @@ function App() {
   //   </div>
   // );
 
-
   // Portals in ReactJS
   // return (
   //   <div className="App">
   //     <PortalDemo/>
   //   </div>
   // );
-
 
   //Refs in ReactJS
   // return (
