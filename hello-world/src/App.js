@@ -29,16 +29,25 @@ import ButtonClick from "./Components/ButtonClick";
 import HeadingHover from "./Components/HeadingHover";
 import D from "./Components/D";
 import { UserProvider } from "./Components/ContextComponent";
+import HttpGet from "./Components/HttpGet";
 
 function App() {
+//  HTTP-GET
+return (
+  <div className="App">
+    <HttpGet/>
+  </div>
+);
+
+
   //COntext API
-  return (
-    <div className="App">
-      <UserProvider value="piyush jiwane">
-        <D/>
-      </UserProvider>
-    </div>
-  );
+  // return (
+  //   <div className="App">
+  //     {/* <UserProvider value="piyush jiwane"> */}
+  //       <D/>
+  //     {/* </UserProvider> */}
+  //   </div>
+  // );
 
   // Higher order in ReactJS
   // return (
