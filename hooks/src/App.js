@@ -1,6 +1,5 @@
 import './App.css';
 import UseEffectCounter from './Components/UseEffectCounter';
-import UseStateArrayHook from './Components/UseStateArrayHook';
 
 function App() {
   return (
@@ -8,8 +7,8 @@ function App() {
       {/* <CounterHook/> */}
       {/* <CounterPreStateHook/> */}
       {/* <UseStateObjectHook/> */}
-      <UseStateArrayHook/>
-      {/* <UseEffectCounter/> */}
+      {/* <UseStateArrayHook/> */}
+      <UseEffectCounter/>
     </div>
   );
 }
