@@ -1,5 +1,5 @@
 import './App.css';
-import UseEffectCounter from './Components/UseEffectCounter';
+import UseEffectMouse from './Components/UseEffectMouse';
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       {/* <CounterPreStateHook/> */}
       {/* <UseStateObjectHook/> */}
       {/* <UseStateArrayHook/> */}
-      <UseEffectCounter/>
+      {/* <UseEffectCounter/> */}
+      <UseEffectMouse/>
     </div>
   );
 }
