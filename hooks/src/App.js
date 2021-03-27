@@ -1,14 +1,15 @@
 import './App.css';
-import CounterHook from './Components/CounterHook';
-import CounterPreStateHook from './Components/CounterPreStateHook';
-import UseStateObjectHook from './Components/UseStateObjectHook';
+import UseEffectCounter from './Components/UseEffectCounter';
+import UseStateArrayHook from './Components/UseStateArrayHook';
 
 function App() {
   return (
     <div className="App">
       {/* <CounterHook/> */}
       {/* <CounterPreStateHook/> */}
-      <UseStateObjectHook/>
+      {/* <UseStateObjectHook/> */}
+      <UseStateArrayHook/>
+      {/* <UseEffectCounter/> */}
     </div>
   );
 }
