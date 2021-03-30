@@ -6,6 +6,8 @@ import UseEffectTimerHook from './Components/UseEffectTimerHook';
 import GetDataFetching from './Components/GetDataFetching';
 import GetSingleDataFetching from './Components/GetSingleDataFetching';
 import GetSingleDataOnButton from './Components/GetSingleDataOnButton'
+import ComponentC from './Components/ComponentC';
+import ComponentE from './Components/ComponentE';
 
 function App() {
   return (
@@ -20,7 +22,8 @@ function App() {
       {/* <UseEffectTimerHook/> */}
       {/* <GetDataFetching/> */}
       {/* <GetSingleDataFetching/> */}
-      <GetSingleDataOnButton/>
+      {/* <GetSingleDataOnButton/> */}
+      <ComponentC/>
     </div>
   );
 }
