@@ -5,6 +5,8 @@ import UseEffectMouse from './Components/UseEffectMouse';
 import UseEffectTimerHook from './Components/UseEffectTimerHook';
 import GetDataFetching from './Components/GetDataFetching';
 import GetSingleDataFetching from './Components/GetSingleDataFetching';
+import GetSingleDataOnButton from './Components/GetSingleDataOnButton'
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +19,8 @@ function App() {
       {/* <MouseContainer/> */}
       {/* <UseEffectTimerHook/> */}
       {/* <GetDataFetching/> */}
-      <GetSingleDataFetching/>
+      {/* <GetSingleDataFetching/> */}
+      <GetSingleDataOnButton/>
     </div>
   );
 }
