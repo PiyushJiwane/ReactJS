@@ -1,6 +1,7 @@
 import './App.css';
 import MouseContainer from './Components/MouseContainer';
 import UseEffectMouse from './Components/UseEffectMouse';
+import UseEffectTimerHook from './Components/UseEffectTimerHook';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <UseStateArrayHook/> */}
       {/* <UseEffectCounter/> */}
       {/* <UseEffectMouse/> */}
-      <MouseContainer/>
+      {/* <MouseContainer/> */}
+      <UseEffectTimerHook/>
     </div>
   );
 }
