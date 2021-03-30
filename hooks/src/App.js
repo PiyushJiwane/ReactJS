@@ -1,4 +1,5 @@
 import './App.css';
+import MouseContainer from './Components/MouseContainer';
 import UseEffectMouse from './Components/UseEffectMouse';
 
 function App() {
@@ -9,7 +10,8 @@ function App() {
       {/* <UseStateObjectHook/> */}
       {/* <UseStateArrayHook/> */}
       {/* <UseEffectCounter/> */}
-      <UseEffectMouse/>
+      {/* <UseEffectMouse/> */}
+      <MouseContainer/>
     </div>
   );
 }
