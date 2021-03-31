@@ -1,13 +1,36 @@
 import './App.css';
-import UseReducerCounter2 from './Components/UseReducerCounter2';
-import UseReducerCounter3 from './Components/UseReducerCounter3';
+import React,{useReducer} from 'react'
+import CompA from './Components/CompA'
+import CompB from './Components/CompB'
+import CompC from './Components/CompC'
+
+const initialState=0;
+const reducer=(currentState,action)=>{
+    switch(action){
+        case 'increment':
+            return currentState+1;
+        case 'decrement':
+            return currentState-1;
+        case 'reser':
+            return initialState;
+        default:
+            return initialState
+    }
+}
+
+export const CountContext=React.createContext();
 
 function App() {
+  const [count,dispatch]=useReducer(reducer,initialState)
   return (
-    <div className="App">
-      {/* <UseReducerCounter2/> */}
-      <UseReducerCounter3/>
+    <CountContext.Provider value={{countState:count,countDispatch:dispatch }}>
+      <div className="App">
+      <h3>{count}</h3>
+      <CompA/>
+      <CompB/>
+      <CompC/>
     </div>
+    </CountContext.Provider>
   );
 }
 

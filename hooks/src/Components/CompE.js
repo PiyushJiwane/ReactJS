@@ -1,11 +1,10 @@
 import React from 'react'
 
-function UseContext() {
+function CompE() {
     return (
         <div>
-            
         </div>
     )
 }
 
-export default UseContext
+export default CompE
