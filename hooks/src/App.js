@@ -8,6 +8,7 @@ import GetSingleDataFetching from './Components/GetSingleDataFetching';
 import GetSingleDataOnButton from './Components/GetSingleDataOnButton'
 import ComponentC from './Components/ComponentC';
 import ComponentE from './Components/ComponentE';
+import UseReducerCounter from './Components/UseReducerCounter';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <GetDataFetching/> */}
       {/* <GetSingleDataFetching/> */}
       {/* <GetSingleDataOnButton/> */}
-      <ComponentC/>
+      {/* <ComponentC/> */}
+      <UseReducerCounter/>
     </div>
   );
 }
