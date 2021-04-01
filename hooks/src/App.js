@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./Components/Counter";
 import DocTitleOne from "./Components/DocTitleOne";
 import DocTitleTwo from "./Components/DocTitleTwo";
 import ParentComponent from "./Components/ParentComponent";
@@ -14,8 +15,9 @@ function App() {
       {/* <UseMemoCounter/> */}
       {/* <UseRefFocus/> */}
       {/* <UseRefTimer/> */}
-      <DocTitleOne/>
-      <DocTitleTwo/>
+      {/* <DocTitleOne/>
+      <DocTitleTwo/> */}
+      <Counter/>
     </div>
   );
 }
