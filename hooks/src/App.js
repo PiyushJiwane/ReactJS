@@ -2,6 +2,7 @@ import "./App.css";
 import ParentComponent from "./Components/ParentComponent";
 import UseMemoCounter from "./Components/UseMemoCounter";
 import UseRefFocus from "./Components/UseRefFocus";
+import UseRefTimer from "./Components/UseRefTimer";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <UseReducerDataFetching /> */}
       {/* <ParentComponent/> */}
       {/* <UseMemoCounter/> */}
-      <UseRefFocus/>
+      {/* <UseRefFocus/> */}
+      <UseRefTimer/>
     </div>
   );
 }
