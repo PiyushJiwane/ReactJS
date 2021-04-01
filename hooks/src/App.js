@@ -6,6 +6,7 @@ import ParentComponent from "./Components/ParentComponent";
 import UseMemoCounter from "./Components/UseMemoCounter";
 import UseRefFocus from "./Components/UseRefFocus";
 import UseRefTimer from "./Components/UseRefTimer";
+import UserForm from "./Components/UserForm";
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
       {/* <UseRefTimer/> */}
       {/* <DocTitleOne/>
       <DocTitleTwo/> */}
-      <Counter/>
+      {/* <Counter/> */}
+      <UserForm/>
     </div>
   );
 }
