@@ -1,4 +1,6 @@
 import "./App.css";
+import DocTitleOne from "./Components/DocTitleOne";
+import DocTitleTwo from "./Components/DocTitleTwo";
 import ParentComponent from "./Components/ParentComponent";
 import UseMemoCounter from "./Components/UseMemoCounter";
 import UseRefFocus from "./Components/UseRefFocus";
@@ -11,7 +13,9 @@ function App() {
       {/* <ParentComponent/> */}
       {/* <UseMemoCounter/> */}
       {/* <UseRefFocus/> */}
-      <UseRefTimer/>
+      {/* <UseRefTimer/> */}
+      <DocTitleOne/>
+      <DocTitleTwo/>
     </div>
   );
 }
