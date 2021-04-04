@@ -5,7 +5,7 @@ import { buyIceCream } from '../Redux/IceCreams/IceCreamAction';
 
 function HookCakeComponent() {
     const numOfCakes = useSelector(state => state.cake.numOfCakes)
-    const numOfIceCream = useSelector(state => state.iceCream.numOfIceCream)
+    // const numOfIceCream = useSelector(state => state.iceCream.numOfIceCream)
     const dispatch = useDispatch();
     return (
         <div>
@@ -13,10 +13,10 @@ function HookCakeComponent() {
             <h3>Number of Cakes : {numOfCakes}</h3>
             <button onClick={()=>dispatch(buyCake())}>Buy Cake</button>
             </div>
-            <div>
+            {/* <div>
             <h3>Number of Cakes : {numOfIceCream}</h3>
             <button onClick={()=>dispatch(buyIceCream())}>Buy IceCream</button>
-            </div>
+            </div> */}
         </div>
     )
 }
