@@ -1,7 +1,6 @@
 import React from 'react'
 import {useSelector,useDispatch} from 'react-redux';
 import { buyCake } from '../Redux/Cake/CakeAction';
-import { buyIceCream } from '../Redux/IceCreams/IceCreamAction';
 
 function HookCakeComponent() {
     const numOfCakes = useSelector(state => state.cake.numOfCakes)
