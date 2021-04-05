@@ -1,6 +1,7 @@
 import "./App.css";
 import BoxComponent from "./Component/BoxComponent";
 import ContainerComponent from "./Component/ContainerComponent";
+import CSSINJSComponent from "./Component/CSSINJSComponent";
 import TypographyComponent from "./Component/TypographyComponent";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div>
       {/* <BoxComponent/> */}
       {/* <TypographyComponent/> */}
-      <ContainerComponent/>
+      {/* <ContainerComponent/> */}
+      <CSSINJSComponent/>
     </div>
   );
 }
