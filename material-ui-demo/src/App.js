@@ -12,6 +12,7 @@ import Customization from "./Component/Customization";
 import GridComponent from "./Component/GridComponent";
 import FABComponent from "./Component/FABComponent";
 import CardComponent from "./Component/CardComponent";
+import TextFeildComponent from "./Component/TextFeildComponent";
 
 function App() {
   return (
@@ -28,7 +29,8 @@ function App() {
       {/* <Customization/> */}
       {/* <GridComponent/> */}
       {/* <FABComponent/> */}
-      <CardComponent/>
+      {/* <CardComponent/> */}
+      <TextFeildComponent/>
     </div>
   );
 }
