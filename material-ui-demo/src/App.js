@@ -6,6 +6,7 @@ import PaperComponent from "./Component/PaperComponent";
 import TypographyComponent from "./Component/TypographyComponent";
 import ColorComponent from './Component/ColorComponent'
 import IconsComponent from "./Component/IconsComponent";
+import ButtonComponent from "./Component/ButtonComponent";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       {/* <CSSINJSComponent/> */}
       {/* <PaperComponent/> */}
       {/* <ColorComponent/> */}
-      <IconsComponent/>
+      {/* <IconsComponent/> */}
+      <ButtonComponent/>
     </div>
   );
 }
