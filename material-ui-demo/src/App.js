@@ -7,6 +7,7 @@ import TypographyComponent from "./Component/TypographyComponent";
 import ColorComponent from './Component/ColorComponent'
 import IconsComponent from "./Component/IconsComponent";
 import ButtonComponent from "./Component/ButtonComponent";
+import UtilityFunctions from "./Component/UtilityFunctions";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <PaperComponent/> */}
       {/* <ColorComponent/> */}
       {/* <IconsComponent/> */}
-      <ButtonComponent/>
+      {/* <ButtonComponent/> */}
+      <UtilityFunctions/>
     </div>
   );
 }
