@@ -13,6 +13,7 @@ import GridComponent from "./Component/GridComponent";
 import FABComponent from "./Component/FABComponent";
 import CardComponent from "./Component/CardComponent";
 import TextFeildComponent from "./Component/TextFeildComponent";
+import RadioButtonComponent from "./Component/RadioButtonComponent";
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <GridComponent/> */}
       {/* <FABComponent/> */}
       {/* <CardComponent/> */}
-      <TextFeildComponent/>
+      {/* <TextFeildComponent/> */}
+      <RadioButtonComponent/>
     </div>
   );
 }
