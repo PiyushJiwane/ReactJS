@@ -11,6 +11,7 @@ import UtilityFunctions from "./Component/UtilityFunctions";
 import Customization from "./Component/Customization";
 import GridComponent from "./Component/GridComponent";
 import FABComponent from "./Component/FABComponent";
+import CardComponent from "./Component/CardComponent";
 
 function App() {
   return (
@@ -26,7 +27,8 @@ function App() {
       {/* <UtilityFunctions/> */}
       {/* <Customization/> */}
       {/* <GridComponent/> */}
-      <FABComponent/>
+      {/* <FABComponent/> */}
+      <CardComponent/>
     </div>
   );
 }
