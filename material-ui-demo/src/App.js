@@ -5,6 +5,7 @@ import CSSINJSComponent from "./Component/CSSINJSComponent";
 import PaperComponent from "./Component/PaperComponent";
 import TypographyComponent from "./Component/TypographyComponent";
 import ColorComponent from './Component/ColorComponent'
+import IconsComponent from "./Component/IconsComponent";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       {/* <ContainerComponent/> */}
       {/* <CSSINJSComponent/> */}
       {/* <PaperComponent/> */}
-      <ColorComponent/>
+      {/* <ColorComponent/> */}
+      <IconsComponent/>
     </div>
   );
 }
