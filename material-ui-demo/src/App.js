@@ -8,6 +8,7 @@ import ColorComponent from './Component/ColorComponent'
 import IconsComponent from "./Component/IconsComponent";
 import ButtonComponent from "./Component/ButtonComponent";
 import UtilityFunctions from "./Component/UtilityFunctions";
+import Customization from "./Component/Customization";
 
 function App() {
   return (
@@ -20,7 +21,8 @@ function App() {
       {/* <ColorComponent/> */}
       {/* <IconsComponent/> */}
       {/* <ButtonComponent/> */}
-      <UtilityFunctions/>
+      {/* <UtilityFunctions/> */}
+      <Customization/>
     </div>
   );
 }
