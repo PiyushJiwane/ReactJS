@@ -10,6 +10,7 @@ import ButtonComponent from "./Component/ButtonComponent";
 import UtilityFunctions from "./Component/UtilityFunctions";
 import Customization from "./Component/Customization";
 import GridComponent from "./Component/GridComponent";
+import FABComponent from "./Component/FABComponent";
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <ButtonComponent/> */}
       {/* <UtilityFunctions/> */}
       {/* <Customization/> */}
-      <GridComponent/>
+      {/* <GridComponent/> */}
+      <FABComponent/>
     </div>
   );
 }
