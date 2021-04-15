@@ -19,6 +19,7 @@ import SwitchComponent from "./Component/SwitchComponent";
 import ListComponent from "./Component/ListComponent";
 import TableComponent from "./Component/TableComponent";
 import DynamicTableComponent from "./Component/DynamicTableComponent";
+import AppBarComponent from "./Component/AppBarComponent";
 
 function App() {
   return (
@@ -41,8 +42,9 @@ function App() {
       {/* <CheckboxComponent/> */}
       {/* <SwitchComponent/> */}
       {/* <ListComponent/> */}
-      <DynamicTableComponent/>
+      {/* <DynamicTableComponent/> */}
       {/* <TableComponent/> */}
+      <AppBarComponent/>
     </div>
   );
 }
