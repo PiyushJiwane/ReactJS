@@ -14,6 +14,8 @@ import FABComponent from "./Component/FABComponent";
 import CardComponent from "./Component/CardComponent";
 import TextFeildComponent from "./Component/TextFeildComponent";
 import RadioButtonComponent from "./Component/RadioButtonComponent";
+import CheckboxComponent from "./Component/CheckboxComponent";
+import SwitchComponent from "./Component/SwitchComponent";
 
 function App() {
   return (
@@ -32,7 +34,9 @@ function App() {
       {/* <FABComponent/> */}
       {/* <CardComponent/> */}
       {/* <TextFeildComponent/> */}
-      <RadioButtonComponent/>
+      {/* <RadioButtonComponent/> */}
+      {/* <CheckboxComponent/> */}
+      <SwitchComponent/>
     </div>
   );
 }
