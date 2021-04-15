@@ -16,6 +16,7 @@ import TextFeildComponent from "./Component/TextFeildComponent";
 import RadioButtonComponent from "./Component/RadioButtonComponent";
 import CheckboxComponent from "./Component/CheckboxComponent";
 import SwitchComponent from "./Component/SwitchComponent";
+import ListComponent from "./Component/ListComponent";
 
 function App() {
   return (
@@ -36,7 +37,8 @@ function App() {
       {/* <TextFeildComponent/> */}
       {/* <RadioButtonComponent/> */}
       {/* <CheckboxComponent/> */}
-      <SwitchComponent/>
+      {/* <SwitchComponent/> */}
+      <ListComponent/>
     </div>
   );
 }
