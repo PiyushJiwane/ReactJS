@@ -17,6 +17,8 @@ import RadioButtonComponent from "./Component/RadioButtonComponent";
 import CheckboxComponent from "./Component/CheckboxComponent";
 import SwitchComponent from "./Component/SwitchComponent";
 import ListComponent from "./Component/ListComponent";
+import TableComponent from "./Component/TableComponent";
+import DynamicTableComponent from "./Component/DynamicTableComponent";
 
 function App() {
   return (
@@ -38,7 +40,9 @@ function App() {
       {/* <RadioButtonComponent/> */}
       {/* <CheckboxComponent/> */}
       {/* <SwitchComponent/> */}
-      <ListComponent/>
+      {/* <ListComponent/> */}
+      <DynamicTableComponent/>
+      {/* <TableComponent/> */}
     </div>
   );
 }
