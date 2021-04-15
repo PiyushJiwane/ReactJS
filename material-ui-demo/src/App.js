@@ -20,6 +20,7 @@ import ListComponent from "./Component/ListComponent";
 import TableComponent from "./Component/TableComponent";
 import DynamicTableComponent from "./Component/DynamicTableComponent";
 import AppBarComponent from "./Component/AppBarComponent";
+import SimpleDrawer from "./Component/SimpleDrawer";
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
       {/* <ListComponent/> */}
       {/* <DynamicTableComponent/> */}
       {/* <TableComponent/> */}
-      <AppBarComponent/>
+      {/* <AppBarComponent/> */}
+      <SimpleDrawer/>
     </div>
   );
 }
