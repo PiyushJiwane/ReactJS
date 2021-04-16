@@ -23,6 +23,7 @@ import AppBarComponent from "./Component/AppBarComponent";
 import SimpleDrawer from "./Component/SimpleDrawer";
 import PhoneDrawer from "./Component/PhoneDrawer";
 import ClippedDrawer from "./Component/ClippedDrawer"
+import ResponsiveDrawer from "./Component/ResponsiveDrawer";
 
 function App() {
   return (
@@ -50,7 +51,8 @@ function App() {
       {/* <AppBarComponent/> */}
       {/* <SimpleDrawer/> */}
       {/* <PhoneDrawer/> */}
-      <ClippedDrawer/>
+      {/* <ClippedDrawer/> */}
+      <ResponsiveDrawer/>
     </div>
   );
 }
