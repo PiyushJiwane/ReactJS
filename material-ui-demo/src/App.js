@@ -24,6 +24,7 @@ import SimpleDrawer from "./Component/SimpleDrawer";
 import PhoneDrawer from "./Component/PhoneDrawer";
 import ClippedDrawer from "./Component/ClippedDrawer"
 import ResponsiveDrawer from "./Component/ResponsiveDrawer";
+import PersistantDrawer from "./Component/PersistantDrawer";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <SimpleDrawer/> */}
       {/* <PhoneDrawer/> */}
       {/* <ClippedDrawer/> */}
-      <ResponsiveDrawer/>
+      {/* <ResponsiveDrawer/> */}
+      <PersistantDrawer/>
     </div>
   );
 }
