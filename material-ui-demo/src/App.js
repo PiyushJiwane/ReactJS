@@ -21,6 +21,7 @@ import TableComponent from "./Component/TableComponent";
 import DynamicTableComponent from "./Component/DynamicTableComponent";
 import AppBarComponent from "./Component/AppBarComponent";
 import SimpleDrawer from "./Component/SimpleDrawer";
+import PhoneDrawer from "./Component/PhoneDrawer";
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
       {/* <DynamicTableComponent/> */}
       {/* <TableComponent/> */}
       {/* <AppBarComponent/> */}
-      <SimpleDrawer/>
+      {/* <SimpleDrawer/> */}
+      <PhoneDrawer/>
     </div>
   );
 }
