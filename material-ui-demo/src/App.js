@@ -25,6 +25,7 @@ import PhoneDrawer from "./Component/PhoneDrawer";
 import ClippedDrawer from "./Component/ClippedDrawer"
 import ResponsiveDrawer from "./Component/ResponsiveDrawer";
 import PersistantDrawer from "./Component/PersistantDrawer";
+import MenuComponent from "./Component/MenuComponent";
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <PhoneDrawer/> */}
       {/* <ClippedDrawer/> */}
       {/* <ResponsiveDrawer/> */}
-      <PersistantDrawer/>
+      {/* <PersistantDrawer/> */}
+      <MenuComponent/>
     </div>
   );
 }
