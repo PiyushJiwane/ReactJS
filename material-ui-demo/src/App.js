@@ -27,6 +27,7 @@ import ResponsiveDrawer from "./Component/ResponsiveDrawer";
 import PersistantDrawer from "./Component/PersistantDrawer";
 import MenuComponent from "./Component/MenuComponent";
 import DialogeComponent from "./Component/DialogeComponent";
+import DialogComponentEx from "./Component/DialogComponentEx";
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
       {/* <ResponsiveDrawer/> */}
       {/* <PersistantDrawer/> */}
       {/* <MenuComponent/> */}
-      <DialogeComponent/>
+      {/* <DialogeComponent/> */}
+      <DialogComponentEx/>
     </div>
   );
 }
