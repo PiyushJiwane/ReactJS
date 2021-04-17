@@ -28,6 +28,7 @@ import PersistantDrawer from "./Component/PersistantDrawer";
 import MenuComponent from "./Component/MenuComponent";
 import DialogeComponent from "./Component/DialogeComponent";
 import DialogComponentEx from "./Component/DialogComponentEx";
+import PaginationEx from "./Component/PaginationEx";
 
 function App() {
   return (
@@ -60,7 +61,8 @@ function App() {
       {/* <PersistantDrawer/> */}
       {/* <MenuComponent/> */}
       {/* <DialogeComponent/> */}
-      <DialogComponentEx/>
+      {/* <DialogComponentEx/> */}
+      <PaginationEx/>
     </div>
   );
 }
